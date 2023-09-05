@@ -7,29 +7,63 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sawyer Hays Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand text-light" href="#">Sawyer Hays</a>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link"href="index.html">Home</a>
-                    <a class="nav-link active" aria-current="page" href="puppy.html">My Dog</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                    <a class="nav-link active text-light" aria-current="page" href="puppy.html">My Dog</a>
+                    <a class="nav-link text-light" href="#">Pricing</a>
+                    <a class="nav-link disabled text-light" aria-disabled="true">Disabled</a>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="remypic1.png" class="card-img-top" alt="My dog Remy!!">
-            <div class="card-body">
-                <p class="card-text">This is my dog, his name is Remy.</p>
+
+    <div class="container" style="padding-top: .7rem;">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="remypic1.png" class="card-img-top" alt="My dog Remy!!">
+                    <div class="card-body">
+                        <p class="card-text">This is my dog, his name is Remy.</p>
+                    </div>
+                </div>
+            </div>
+           <div class="col">
+               <div class="card" style="width: 18rem;">
+                   <img src="remypic2.jpg" class="card-img-top" alt="He's so cute">
+                   <div class="card-body">
+                       <p class="card-text">He's so cute. </p>
+                   </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
