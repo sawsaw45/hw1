@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b57e763-360a-44f7-b8d8-5c8fda9af603" name="Changes" comment="typo fixed">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9c24bd25-4487-46c3-9079-a1682998bb01" />
+        <option name="url" value="https://github.com/sawsaw45/hw1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Ucpon95gceKQymid4qI7tSw8PS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sawye\IdeaProjects\hw1" />
+      <recent name="C:\Users\Sawye\IdeaProjects\hw1\.idea" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b57e763-360a-44f7-b8d8-5c8fda9af603" name="Changes" comment="" />
+      <created>1693248899594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693248899594</updated>
+      <workItem from="1693248900637" duration="1812000" />
+      <workItem from="1693323021252" duration="618000" />
+      <workItem from="1693323660265" duration="5000" />
+      <workItem from="1693421273660" duration="56000" />
+      <workItem from="1693421441810" duration="407000" />
+      <workItem from="1693530831383" duration="1025000" />
+      <workItem from="1693927404018" duration="603000" />
+      <workItem from="1693938689812" duration="1494000" />
+      <workItem from="1693943148903" duration="1837000" />
+      <workItem from="1693963748109" duration="9030000" />
+    </task>
+    <task id="LOCAL-00001" summary="djfskdj">
+      <option name="closed" value="true" />
+      <created>1693249290397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693249290397</updated>
+    </task>
+    <task id="LOCAL-00002" summary="djfskdj">
+      <option name="closed" value="true" />
+      <created>1693249385580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693249385580</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created new page and added navbar to index.html">
+      <option name="closed" value="true" />
+      <created>1693250196368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250196368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added image for new page">
+      <option name="closed" value="true" />
+      <created>1693250626169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693250626169</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added image for new page">
+      <option name="closed" value="true" />
+      <created>1693323285177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693323285177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added image for new page">
+      <option name="closed" value="true" />
+      <created>1693323297223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693323297223</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished dog page, started cat">
+      <option name="closed" value="true" />
+      <created>1693968543899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693968543899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mostly done, added last page">
+      <option name="closed" value="true" />
+      <created>1693972154670</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972154670</updated>
+    </task>
+    <task id="LOCAL-00009" summary="typo fixed">
+      <option name="closed" value="true" />
+      <created>1693972283571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972283571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="djfskdj" />
+    <MESSAGE value="created new page and added navbar to index.html" />
+    <MESSAGE value="cropped image" />
+    <MESSAGE value="added image for new page" />
+    <MESSAGE value="finished dog page, started cat" />
+    <MESSAGE value="mostly done, added last page" />
+    <MESSAGE value="typo fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo fixed" />
+  </component>
+</project>
