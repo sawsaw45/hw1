@@ -91,7 +91,14 @@
   </div>
   <script>
     function changeGreeting() {
+      var isDefaultText = true;
+      var x = document.getElementById("greeting").innerHTML;
+      if (isDefaultText) {
       document.getElementById("greeting").innerHTML = "Howdy, people!!";
+      }
+      else {
+        document.getElementById("greeting").innerHTML = x;
+      }
     }
   </script>
   </body>
