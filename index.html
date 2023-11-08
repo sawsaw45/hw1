@@ -29,12 +29,10 @@
 		<div class="row"> 
 			<h1 id="greeting">Welcome</h1>
 		</div>
-		<div class="row-auto">
+		<div class="row-auto" style="padding-bottom: 3px;">
           <button class="btn btn-primary" onclick="changeGreeting()" type="button">Click Me!</button>
         </div>
-      <div class="row">
 
-      </div>
 		
 		<script crossorigin="anonymous" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 		<div class="row">
@@ -78,6 +76,14 @@
   </div>
             </div>
 </div>
+      <div class="card" style="width: 18rem;">
+        <img alt="me" class="card-img-top" id="myPic" src="/images/Me.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Picture of Me</h5>
+          <p class="card-text">The button does a funny thing</p>
+          <button class="btn btn-primary" onclick="changeMyPic()" type="button">Click Me!</button>
+        </div>
+      </div>
 		</div>
   <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -90,6 +96,17 @@
   </footer>
   </div>
   <script>
+    var isDefaultImg = true;
+    function changeMyPic() {
+      if (isDefaultImg) {
+      document.getElementById("myPic").src = "/images/MeInV.jpg";
+      isDefaultImg = false;
+      }
+      else {
+        document.getElementById("myPic").src = "/images/Me.jpg";
+        isDefaultImg = true;
+      }
+    }
     var isDefaultText = true;
       var defaultText = document.getElementById("greeting").innerText;
     function changeGreeting() {
