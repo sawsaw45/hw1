@@ -27,7 +27,8 @@
   </nav>
 	<div class="container" style="padding-top:5px;">
 		<div class="row"> 
-			<h1>Howdy, planet!!!</h1>
+			<h1 id="greeting">Welcome</h1>
+          <button class="btn btn-primary" onclick="changeGreeting()" type="button">Click Me!</button>
 		</div>
 		
 		
@@ -84,5 +85,10 @@
     </div>
   </footer>
   </div>
+  <script>
+    function changeGreeting() {
+      document.getElementById("greeting").innerHTML = "Howdy, people!!";
+    }
+  </script>
   </body>
 </html>
