@@ -45,7 +45,12 @@
     </h2>
     <div class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
       <div class="accordion-body">
-        <strong>Sawyer Hays</strong>
+        <strong id="myName">Sawyer Hays</strong>
+        <button class="btn btn-primary" onclick="changeNameBigRed()" type="button">Big red!!</button>
+        <button class="btn btn-primary" onclick="changeNameLittleBlue()" type="button">Little blue!!</button>
+        <button class="btn btn-primary" onclick="changeNameNormal()" type="button">Normal :{</button>
+
+
       </div>
     </div>
   </div>
@@ -61,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="accordion-item">
+  <div class="accordion-item" style="padding-bottom: 5px;">
     <h2 class="accordion-header">
       <button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
         About Me:
@@ -76,7 +81,7 @@
   </div>
             </div>
 </div>
-      <div class="card" style="width: 18rem; padding-top: 5px;">
+      <div class="card" style="width: 18rem;">
         <img alt="me" class="card-img-top" id="myPic" src="/images/Me.jpg">
         <div class="card-body">
           <h5 class="card-title">Picture of Me</h5>
@@ -118,6 +123,18 @@
         document.getElementById("greeting").innerHTML = defaultText;
         isDefaultText = true;
       }
+    }
+    function changeNameBigRed() {
+      document.getElementById("myName").style.color = "red";
+      document.getElementById("myName").style.fontSize = "xx-large";
+    }
+    function changeNameLittleBlue() {
+      document.getElementById("myName").style.color = "blue";
+      document.getElementById("myName").style.fontSize = "small";
+    }
+    function changeNameNormal() {
+      document.getElementById("myName").style.color = "black";
+      document.getElementById("myName").style.fontSize = "medium";
     }
   </script>
   </body>
