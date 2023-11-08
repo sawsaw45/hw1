@@ -100,7 +100,8 @@
       <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" href="/">
         <svg class="bi" height="24" width="30"><use xlink:href="#bootstrap"></use></svg>
       </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">©Sawyer Hays <small><del>hey this counts as a row right??</del></small></span>
+      <span class="mb-3 mb-md-0 text-body-secondary" id ="footer">©Sawyer Hays <small><del>hey this counts as a row right??</del></small></span>
+      <button class="btn btn-secondary btn-sm" onclick="hideFooter()" type="button">Click Me!</button>
     </div>
   </footer>
   </div>
@@ -139,6 +140,9 @@
     function changeNameNormal() {
       document.getElementById("myName").style.color = "black";
       document.getElementById("myName").style.fontSize = "medium";
+    }
+    function hideFooter() {
+        document.getElementById("footer").style.display = "none";
     }
   </script>
   </body>
