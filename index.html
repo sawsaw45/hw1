@@ -95,9 +95,11 @@
       var x = document.getElementById("greeting").innerHTML;
       if (isDefaultText) {
       document.getElementById("greeting").innerHTML = "Howdy, people!!";
+      isDefaultText = false;
       }
       else {
         document.getElementById("greeting").innerHTML = x;
+        isDefaultText = true;
       }
     }
   </script>
