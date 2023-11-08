@@ -141,8 +141,16 @@
       document.getElementById("myName").style.color = "black";
       document.getElementById("myName").style.fontSize = "medium";
     }
+    var isFooterHidden = false;
     function hideFooter() {
+      if (!isFooterHidden) {
         document.getElementById("footer").style.display = "none";
+        isFooterHidden = true;
+      }
+      else {
+        document.getElementById("footer").style.display = "block";
+        isFooterHidden = false;
+      }
     }
   </script>
   </body>
