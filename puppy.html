@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/css/smooth-scroll.css" rel="stylesheet">
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css " rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-danger">
@@ -37,6 +39,7 @@
             <h2>Countdown to April 16th:</h2>
             <div class="d-flex justify-content-center" id="timer"></div>
         </div>
+        <button class="btn btn-primary" onclick="doTheModalThing()">Open THE MODALLLL</button>
         <div class="row " style=" padding-bottom:2rem;">
             <div class="col d-flex justify-content-center">
                 <a data-lightbox="remy-gallery" data-title="Remy - Image 1" href="/images/remypic1.png">
@@ -120,6 +123,14 @@
         }
         updateCountdown();
         var interval = setInterval(updateCountdown, 1000);
+        function doTheModalThing() {
+            Swal.fire({
+                title: 'Test!!!!',
+                text: 'This modal is a test.',
+                icon: 'info',
+                confirmButtonText: 'Okay'
+            });
+        }
     </script>
 <script crossorigin="anonymous" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
 </script>
