@@ -6,6 +6,7 @@
     <title>My Dog</title>
     <link href="/images/favicon.png" rel="icon" type="image/x-icon">
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet">
+    <script src="path/to/jstweener.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-danger">
@@ -61,13 +62,13 @@
 
             <div class="carousel slide carousel-fade border rounded border-danger" id="carouselExampleFade" style="padding-top:.5rem;width:40rem;">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" id="carouselItem1">
                         <img class="d-block w-100" src="/images/remypic4.jpg">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" id="carouselItem2">
                         <img class="d-block w-100" src="/images/remypic5.jpg">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" id="carouselItem3">
                         <img class="d-block w-100" src="/images/remypic1.png">
                     </div>
                 </div>
@@ -94,6 +95,33 @@
     </div>
 
 
-<script crossorigin="anonymous" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    document.addEventListener("DOMContentLoaded", function () {
+
+        JSTweener.init();
+
+
+        JSTweener.addTween('#CarouselItem1', {
+            time: 1,
+            transition: 'linear',
+            from: { opacity: 0 },
+            to: { opacity: 1 }
+        });
+
+        JSTweener.addTween('#CarouselItem2', {
+            time: 1,
+            transition: 'linear',
+            from: { opacity: 0 },
+            to: { opacity: 1 }
+        });
+
+        JSTweener.addTween('#CarouselItem3', {
+            time: 1,
+            transition: 'linear',
+            from: { opacity: 0 },
+            to: { opacity: 1 }
+        });
+    });
+</script>
 </body>
 </html>
